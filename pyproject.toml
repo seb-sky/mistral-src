@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mistral-src"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fire = "^0.5.0"
+sentencepiece = "^0.1.99"
+torch = ">=2.1.0"
+xformers = "^0.0.24"
+simple-parsing = "^0.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
